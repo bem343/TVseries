@@ -1,0 +1,71 @@
+/* CONTENT */
+#content {
+    display: table;
+    margin: 50px auto;
+    /* background-color: rgb(120, 120, 255); */
+}
+
+#divSeriesAtivas {
+    padding: 10px;
+    min-height: 271px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.imgSection button {
+    position: relative;
+    bottom: 35px;
+    right: -270px;
+}
+
+.serieAtiva {
+    margin-bottom: 3px;
+}
+
+.filtroItem {
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.filtroItem span {
+    margin-right: 3px;
+}
+
+.divFiltro {
+    margin-bottom: 10px;
+}
+
+.divTitFiltro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.divTitFiltro img {
+    margin-right: 5px;
+}
+
+.divTitFiltro i {
+    margin-right: 5px;
+}
+
+#btnMeSurpreenda {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#divControle {
+    margin-right: 15px !important;
+}
+
+#divResultado {
+    display: none;
+    width: 334px;
+}

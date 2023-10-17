@@ -1,0 +1,133 @@
+/* TAGS */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-color: gray; */
+}
+
+figure {
+    display: flex;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+/* HEADER */
+#header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    /* border-bottom: 1px solid rgb(146, 146, 146);
+    background-color: rgb(105, 105, 105); */
+}
+
+#divMenu {
+    display: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#divLogo {
+    margin-left: 20px;
+
+    /* background-color: aqua; */
+}
+
+#divCategorias {
+    width: 550px;
+    margin-top: 48px;
+    margin-left: 86px;
+    display: flex;
+    justify-content: space-between;
+
+    /* background-color: blueviolet; */
+}
+
+#divPerfil {
+    width: 170px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+    /* background-color: yellow; */
+}
+
+/* CONTENT */
+#content div {
+    /* background-color: aquamarine; */
+}
+
+#divControle {
+    width: 334px;
+}
+
+#divBusca {
+    width: 334px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#divBusca input {
+    width: 300px;
+}
+
+.divSessao {
+    min-width: 334px;
+    padding-right: 7px;
+    margin-left: 20px;
+}
+
+#divNewSerie {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#divNewSerie #btnNewSerie {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+/* CLASSES COMUNS */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cls {
+    clear: both;
+}
+
+.txt1 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.txt2 {
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+}
+
+.iconBtn {
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,31 @@
+/* CONTENT */
+#content {
+    flex-grow: 1;
+    display: flex;
+    overflow-x: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: rgb(120, 120, 255); */
+}
+
+.divSessao .itemSessao {
+    width: 100%;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.divList {
+    margin-top: 39px;
+}
+
+.divInfoItemSessao {
+    width: 208px;
+}
