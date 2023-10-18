@@ -1,0 +1,26 @@
+/* CONTENT */
+#content {
+    display: table;
+    margin: 50px auto;
+    /* background-color: rgb(120, 120, 255); */
+}
+
+#divSeriesAtivas {
+    padding: 10px;
+    min-height: 242px;
+    margin-top: 39px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.serieAtiva {
+    margin-bottom: 3px;
+}
+
+#divControle {
+    margin-right: 15px !important;
+}
+
+#divResultado {
+    width: 334px;
+}

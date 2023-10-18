@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Home</title>
+    <title>Lista de espera</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/adadff5858.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/listaEspera.css">
 </head>
 <body>
     
@@ -44,14 +44,21 @@
     </section>
 
     <section id="content">
-        <div class="fl" style="margin-right: 15px;">
+
+        <div id="divControle" class="fl">
+
+            <h1>Lista de espera</h1>
             <div id="divBusca">
                 <input id="txtSearch" type="text" />
-                <button id="btnSearch" class="iconBtn"><i class="fa-solid fa-plus"></i></button>
+                <button id="btnSearch" class="iconBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
+
+        </div>
+
+        <div id="divResultado" class="fl">
             <div id="divSeriesAtivas">
                 <div>
-                    <b><span>3 Séries ativas</span></b>
+                    <b><span>3 Séries em espera</span></b>
                 </div>
                 <br />
 
@@ -61,7 +68,6 @@
                             <span>Econde-Esconde</span>
                         </div>
                         <div class="fr">
-                            <a href="#"><i class="fa-solid fa-circle-play"></i></a>
                             <a href="#"><i class="fa-solid fa-circle-check"></i></a>
                         </div>
                         <div class="cls"></div>
@@ -71,7 +77,6 @@
                             <span>Como ser um ladrão profissional</span>
                         </div>
                         <div class="fr">
-                            <a href="#"><i class="fa-solid fa-circle-play"></i></a>
                             <a href="#"><i class="fa-solid fa-circle-check"></i></a>
                         </div>
                         <div class="cls"></div>
@@ -81,7 +86,6 @@
                             <span>Fuga impossível</span>
                         </div>
                         <div class="fr">
-                            <a href="#"><i class="fa-solid fa-circle-play"></i></a>
                             <a href="#"><i class="fa-solid fa-circle-check"></i></a>
                         </div>
                         <div class="cls"></div>
@@ -89,18 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="fl">
-            <div id="divMeSurpeenda" class="imgSection">
-                <span>Não sabe o que assistir?</span>
-                <figure><img src="img/me_surpreenda.png" width="300" height="120"></figure>
-                <button id="btnMeSurpreenda" class="iconBtn" onclick="location.href = 'meSurpreenda.html';"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-            <div id="divListaEspera" class="imgSection">
-                <span>Cansado de esperar?</span>
-                <figure><img src="img/lista_espera.png" width="300" height="120"></figure>
-                <button id="btnListaEspera" class="iconBtn" onclick="location.href = 'listaEspera.html';"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-        </div>
+
         <div class="cls"></div>
     </section>
 
