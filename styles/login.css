@@ -1,0 +1,43 @@
+/* CONTENT */
+#content {
+    display: table;
+    margin: 100px auto;
+    /* background-color: rgb(120, 120, 255); */
+}
+
+#btnEsqueciSenha {
+    color: rgb(42, 132, 235);
+    text-decoration: underline;
+}
+
+#btnLogar {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#divLogo {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px !important;
+    margin-bottom: 30px;
+}
+
+#divLogin {
+    width: 250px;
+    display: grid;
+}
+
+.itemLogin {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.itemLogin input {
+    width: 250px;
+}
+
+#divMsgErro {
+    display: none;
+    color: red;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/adadff5858.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+
+    <section id="content">
+        <div id="divLogo" class="fl" style="margin-right: 15px;">
+            <figure><img src="img/logo.png" width="150"></figure>
+        </div>
+        <div id="divLogin" class="fl">
+
+            <div class="itemLogin">
+                <input id="txtLogin" placeholder="Digite o login..." type="text" />
+            </div>
+
+            <div class="itemLogin">
+                <input id="txtSenha" placeholder="Digite a senha..." type="text" />
+            </div>
+
+            <div style="padding: 5px;">
+                <div class="fl">
+                    <a id="btnEsqueciSenha" href="#">Esqueci a senha</a>
+                </div>
+                <div class="fr">
+                    <button id="btnLogar" onclick="location.href = 'index.html';">Logar</button>
+                </div>
+                <div class="cls"></div>
+            </div>
+
+            <div style="padding: 5px;">
+                <div id="divMsgErro" class="fr">
+                    <label>Usuário ou senha incorreta</label>
+                </div>
+                <div class="cls"></div>
+            </div>
+
+        </div>
+        <div class="cls"></div>
+    </section>
+
+</body>
+</html>
